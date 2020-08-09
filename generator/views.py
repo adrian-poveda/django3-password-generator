@@ -24,7 +24,7 @@ def password(request):
         characters.extend(list('ABCDEFGHIJKLMNOPQRSTUVWXYZ'))
     
     if special:
-        characters.extend(list('!@#%&/()*'))
+        characters.extend(list('!@#%&/()*[]+-:'))
     
     if numbers:
         characters.extend(list('0123456789'))
